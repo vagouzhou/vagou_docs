@@ -1,0 +1,10 @@
+{
+    "dump_raw_data":false,
+    "dump_raw_data_ring_size":100,
+    "trace_one_by_frames":20,
+    "trace_level":4,
+    "dummy_point":false,
+    "dummy_capture":false,
+    "dummy_point_sys_pos",false,
+    "dummy_enumerator":false
+}
