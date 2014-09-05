@@ -5,7 +5,9 @@
     "trace_one_by_frames":20,
     "trace_level":4,
     "dummy_point":false,
-    "dummy_capture":false,
+    "dummy_capture":true,
+    "dummy_capture_width":1025,
+    "dummy_capture_height":768,
     "dummy_point_sys_pos",false,
     "dummy_enumerator":false,
     "mac_support_display_scale":true
