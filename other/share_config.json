@@ -1,5 +1,5 @@
 {
-    "dump_raw_data":false,
+    "dump_raw_data":true,
     "dump_point_raw_data":false,
     "dump_raw_data_ring_size":100,
     "trace_one_by_frames":20,
