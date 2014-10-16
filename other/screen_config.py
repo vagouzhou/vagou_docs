@@ -7,13 +7,17 @@ if(platform.system()=="Windows"):
 else:
     dir_screenshare_config_dir =  "/tmp/screen_share"
 dir_screenshare_config_dump = dir_screenshare_config_dir+"/img-dump"
+dir_screenshare_config_dump_decoded = dir_screenshare_config_dir+"/img-dump-decoded"
 dir_screenshare_config_file = dir_screenshare_config_dir+"/share_config.json"
 
 #
 if not os.path.isdir(dir_screenshare_config_dir):
     os.makedirs(dir_screenshare_config_dir)
+if not os.path.isdir(dir_screenshare_config_dump_decoded):
+    os.makedirs(dir_screenshare_config_dump_decoded)
 if not os.path.isdir(dir_screenshare_config_dump):
     os.makedirs(dir_screenshare_config_dump)
+
 
 share_config_text ="""{
      "dump_raw_data":true,
