@@ -20,7 +20,7 @@ if not os.path.isdir(dir_screenshare_config_dump):
 
 
 share_config_text ="""{
-     "dump_raw_data":true,
+     "dump_raw_data":false,
      "dump_point_raw_data":false,
      "dump_raw_data_ring_size":100,
      "trace_one_by_frames":20,
@@ -31,8 +31,8 @@ share_config_text ="""{
      "dummy_capture_height":768,
      "dummy_point_sys_pos",false,
      "dummy_enumerator":false,
-     "mac_support_display_scale":true,
-     "capture_resample_enable":true,
+     "mac_support_display_scale":false,
+     "capture_resample_enable":false,
      "capture_resample_width":1920,
      "capture_resample_heigt":1080
  }
